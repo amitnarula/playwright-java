@@ -29,7 +29,7 @@ public class BaseTest {
 
     @BeforeMethod
     @Parameters({"browserName", "headless"})
-    public void setUp(@Optional("firefox") String browserName, @Optional("false") String headless) throws IllegalArgumentException {
+    public void setUp(@Optional("firefox") String browserName, @Optional("true") String headless) throws IllegalArgumentException {
         this.browserName = browserName;
 
         page = browserFactory.initializeBrowser(browserName, headless);
