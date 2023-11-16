@@ -2,7 +2,7 @@
 
 <suite name="Regression Suite Chrome" verbose="1">
     <parameter name="headless" value="true"></parameter>
-    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserName" value="firefox"></parameter>
     <test name="Homepage Tests">
         <classes>
             <class name="org.example.tests.HomepageTest"/>
